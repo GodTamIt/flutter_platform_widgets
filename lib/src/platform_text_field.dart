@@ -437,7 +437,7 @@ class PlatformTextField
           ui.BoxWidthStyle.tight,
       obscuringCharacter: data?.obscuringCharacter ?? obscuringCharacter ?? '•',
       autofillHints: data?.autofillHints ?? autofillHints,
-      canAssertMaterialLocalizations: data?.canAssertMaterialLocalizations,
+      // canAssertMaterialLocalizations: data?.canAssertMaterialLocalizations,
     );
   }
 
